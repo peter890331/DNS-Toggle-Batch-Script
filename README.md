@@ -1,2 +1,25 @@
-# DNS-Toggle-Batch-Script
-一個簡單的 Windows 批次檔，用來在 自動 DNS（DHCP）與 手動 DNS（Cloudflare 1.1.1.1 / 1.0.0.1）之間快速切換。
+# DNS Toggle Batch Script
+
+一個簡單的 Windows 批次檔，用來在 **自動 DNS（DHCP）** 與 **手動 DNS（Cloudflare 1.1.1.1 / 1.0.0.1）** 之間快速切換。
+
+適合用在某些網路環境中，因為 DNS 限制導致特定網域無法正常存取的情況。
+
+---
+
+## 功能
+
+- 偵測目前網路介面的 DNS 狀態
+- 在以下兩種模式間切換：
+  - 自動 DNS（DHCP）
+  - 手動 DNS（1.1.1.1 / 1.0.0.1）
+- 切換後自動清除 DNS 快取
+- 不需安裝任何額外軟體
+
+---
+
+## 系統需求
+
+- Windows 10 / Windows 11
+- **必須以系統管理員身分執行**
+
+---
