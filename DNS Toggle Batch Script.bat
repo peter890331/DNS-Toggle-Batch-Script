@@ -4,7 +4,7 @@ net session >nul 2>&1
 if %errorlevel% neq 0 (
     echo.
     echo 此檔案必須以系統管理員身分執行。
-    echo 請右鍵此檔案，選擇「以系統管理員身分執行」，並按下「是」。
+    echo 請右鍵此檔案，選擇「以系統管理員身分執行」，若系統出現提示，點擊「是」允許
     echo.
     pause
     exit /b
