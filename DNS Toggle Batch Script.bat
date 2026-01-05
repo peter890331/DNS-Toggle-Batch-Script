@@ -1,5 +1,7 @@
 @echo off
 
+echo.
+
 net session >nul 2>&1
 if %errorlevel% neq 0 (
     echo.
@@ -39,4 +41,5 @@ ipconfig /flushdns >nul
 
 echo.
 echo DNS ¤Á´«§¹¦¨¡C
+echo.
 pause
